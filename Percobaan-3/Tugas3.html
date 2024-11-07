@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #4B0082;
+      background-color: #F5F3FF;
+    }
+
+    header {
+      background-color: #D8BFD8;
+      padding: 20px;
+      text-align: center;
+      border-radius: 15px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #4B0082;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    /* Gaya untuk About Me dengan efek gambar saat disentuh */
+    .about-hover {
+      font-weight: bold;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .about-hover::after {
+      content: '';
+      background-image: url('Profile.jpg'); /* Ganti dengan path foto yang ingin ditampilkan */
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: -180px; /* Menampilkan gambar di atas tulisan */
+      left: 50%;
+      transform: translateX(-50%);
+      display: none;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .about-hover:hover::after {
+      display: block;
+    }
+
+    /* Portfolio Section */
+    .portfolio img {
+        width: 40px; 
+        height: auto; 
+        max-width: 100%;
+        margin: 10px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        object-fit: cover;
+    }
+
+    footer {
+      background-color: #D8BFD8;
+      text-align: left;
+      padding: 20px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border-radius: 15px;
+    }
+
+    footer h2 {
+      color: #4B0082;
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    footer p a {
+      text-decoration: none;
+      color: #4B0082;
+      font-weight: bold;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .social-icons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .social-icons a {
+      font-size: 20px;
+      color: #4B0082;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #D8BFD8;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+
+      .portfolio img {
+        width: 20px;
+        height: 20px;
+      }
+
+      footer {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .social-icons {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Profile</h1>
+    <nav>
+      <ul>
+        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#about-me"><i class="fas fa-user"></i> About Me</a></li>
+        <li><a href="#portofolio"><i class="fas fa-briefcase"></i> Portofolio</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about-me">
+      <h2><span class="about-hover">About Me</span></h2>
+      <p>Halo! Saya Putri Casiola Mokodongan. Saya adalah seorang mahasiswa S1 Teknik Informatika dari Universitas Tadulako. Saya sangat menyukai dunia teknologi dan musik, saya juga seorang Swiftie yang selalu terinspirasi oleh lirik-lirik Taylor Swift.</p>
+    </section>
+
+    <section id="portofolio" class="portofolio">
+      <h2>Portofolio</h2>
+      <p>Berikut adalah proyek yang pernah saya kerjakan dan berpartisipasi di dalamnya:
+      </p>
+      <img src="proyek1.png" alt="Proyek 1">
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <div>
+      <p><a href="mailto:putricasiola@gmail.com"><i class="fas fa-envelope"></i> putricasiola@gmail.com</a></p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/putri.casiola/profilecard/?igsh=MTlhaHV2bmQ0MGRtbQ==" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+  </footer>
+</body>
+</html>
