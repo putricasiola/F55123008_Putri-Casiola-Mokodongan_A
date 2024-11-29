@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #b30000; /* Elegant red */
+    color: #fff;
+    display: flex; /* Flexbox applied */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex; /* Flexbox applied */
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: linear-gradient(45deg, #b30000, #ff4d4d);
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 2rem; /* Memberikan jarak antara teks deskripsi dan tombol */
+}
+
+.hero .btn {
+    margin-top: 2rem; /* Menambahkan jarak tambahan untuk memindahkan tombol lebih ke bawah */
+    padding: 0.7rem 1.5rem;
+    background-color: #fff;
+    color: #b30000;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s ease;
+}
+
+.hero .btn:hover {
+    background-color: #ff4d4d;
+    color: #fff;
+    transform: scale(1.05); /* Efek hover */
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #b30000;
+    margin-bottom: 1rem;
+}
+
+.grid-container {
+    display: grid; /* Grid applied */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.item {
+    background-color: #fff;
+    border: 2px solid #b30000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #b30000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
