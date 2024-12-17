@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Build Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-green-700 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <img src="images/finallogo.jpg" 
+                     alt="Eco Build Home Logo" 
+                     class="h-10 ml-2">
+                <h1 class="text-2xl font-bold">Eco Build Hub</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-8">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="#about" class="hover:underline">About</a></li>
+                    <li><a href="#services" class="hover:underline">Services</a></li>
+                    <li><a href= "#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen bg-cover bg-center" style="background-image: url('images/imagemodernliving.png');">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <!-- Content -->
+        <div class="absolute inset-0 flex flex-col justify-center items-start px-10 md:px-20">
+            <span class="bg-gray-700 text-white rounded-full px-4 py-1 mb-4 inline-block text-sm">New</span>
+            <h1 class="text-6xl font-bold text-white leading-tight max-w-lg mb-6">
+                Eco Build Hub
+            </h1>
+            <p class="text-lg text-gray-200 max-w-xl mb-6">
+                Discover innovative and sustainable building solutions designed to reduce environmental impact while enhancing modern living.
+            </p>
+        <a href="#ContactUs" class="bg-white text-black font-medium px-6 py-3 rounded hover:bg-gray-300 transition inline-block">
+            Contact Us
+            </a>
+
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="bg-white pt-16 pb-0">
+        <div class="container mx-auto text-center max-w-4xl">
+            <h2 id="about" class="text-3xl font-bold text-green-700 mb-6">About Eco Build Hub</h2>
+            <p class="text-lg text-gray-700 mb-6">
+                Eco Build Hub was established to address the growing environmental impact of the construction industry. By promoting sustainable building solutions, we aim to reduce carbon emissions, energy consumption, and waste generation.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+<main class="pt-0 pb-24">
+    <div class="container mx-auto">
+        <!-- Pembungkus Frame untuk Our Services -->
+        <div class="bg-white rounded-lg shadow-md p-10">
+            <div class="text-center mb-10">
+                <h2 id="services" class="text-3xl font-bold text-green-700">Our Services</h2>
+                <p class="text-lg text-gray-700 mt-2">
+                    Explore our sustainable building solutions designed to meet modern needs while protecting the environment.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Eco-Friendly Materials -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <a href="EcoFriendlyMaterials.html">
+                        <img src="images/Material.png" 
+                             alt="Eco-Friendly Materials" 
+                             class="w-full h-48 object-cover rounded-t-lg">
+                        <h3 class="text-xl font-bold text-green-700 mt-4 hover:underline">
+                            Eco-Friendly Materials
+                        </h3>
+                    </a>
+                    <p class="mt-2 text-gray-700">
+                        Learn about sustainable building materials that minimize environmental impact.
+                    </p>
+                </div>
+
+                <!-- Green Architecture -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <a href="greenarchitecture.html">
+                        <img src="images/greenarchi.png" 
+                             alt="Green Architecture" 
+                             class="w-full h-48 object-cover rounded-t-lg">
+                        <h3 class="text-xl font-bold text-green-700 mt-4 hover:underline">
+                            Green Architecture
+                        </h3>
+                    </a>
+                    <p class="mt-2 text-gray-700">
+                        Explore innovative architectural designs for energy-efficient homes.
+                    </p>
+                </div>
+
+                <!-- Renewable Energy -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <a href="RenewableEnergy.html">
+                        <img src="images/renewableenergy.png" 
+                             alt="Renewable Energy" 
+                             class="w-full h-48 object-cover rounded-t-lg">
+                        <h3 class="text-xl font-bold text-green-700 mt-4 hover:underline">
+                            Renewable Energy
+                        </h3>
+                    </a>
+                    <p class="mt-2 text-gray-700">
+                        Discover how renewable energy sources power sustainable buildings.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <!-- Reviews Section -->
+<section class="bg-gray-100 py-16">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-10">What They Say About Eco Build Hub</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Review 1 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p class="text-gray-600 mb-4">
+                    "Eco Build Hub opened my eyes to the importance of sustainable construction. I’ve learned how to integrate eco-friendly materials into my projects without compromising quality or design."
+                </p>
+                <p class="text-gray-800 font-semibold">Michael J., Architect</p>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p class="text-gray-600 mb-4">
+                    "This platform offers a wealth of knowledge for engineers. It helped me apply renewable energy technologies into building systems effectively and efficiently."
+                </p>
+                <p class="text-gray-800 font-semibold">Sarah T., Structural Engineer</p>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p class="text-gray-600 mb-4">
+                    "Eco Build Hub inspires communities to embrace green living. It’s an incredible resource that teaches the value of reducing carbon footprints through smart building practices."
+                </p>
+                <p class="text-gray-800 font-semibold">Jessica L., Environmental Activist</p>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p class="text-gray-600 mb-4">
+                    "As a property developer, finding sustainable solutions can be challenging. Eco Build Hub provided me with innovative ideas and tools to build more environmentally friendly projects."
+                </p>
+                <p class="text-gray-800 font-semibold">David R., Property Developer</p>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p class="text-gray-600 mb-4">
+                    "The practical examples of green technologies on Eco Build Hub gave me inspiration for designing homes that are energy-efficient and comfortable for families."
+                </p>
+                <p class="text-gray-800 font-semibold">Emily W., Homeowner</p>
+            </div>
+
+            <!-- Review 6 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p class="text-gray-600 mb-4">
+                    "Eco Build Hub bridges the gap between innovation and sustainability. It educates professionals and the public on how green technology can shape the future of construction."
+                </p>
+                <p class="text-gray-800 font-semibold">Daniel K., Green Technology Consultant</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Information -->
+    <div class="bg-green-700 text-white py-8 mt-16">
+        <div class="container mx-auto text-center max-w-xl">
+            <h2 id="contact"  class="text-2xl font-bold mb-4">Contact Us</h2>
+            <p id="ContactUs" class="text-gray-200 mb-6">Feel free to reach out to us for more information or inquiries.</p>
+            <ul class="space-y-4">
+                <li>
+                    <span class="font-semibold">Email:</span> <a href="mailto:contact@ecobuildhub.com" class="text-gray-200 hover:underline">contact@ecobuildhub.com</a>
+                </li>
+                <li>
+                    <span class="font-semibold">Phone:</span> <a href="tel:+1234567890" class="text-gray-200 hover:underline">+1 (234) 567-890</a>
+                </li>
+                <li>
+                    <span class="font-semibold">Address:</span> 123 Eco Street, Green City, State, Country
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-green-700 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Eco Build Hub. Created by Putri Casiola. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
