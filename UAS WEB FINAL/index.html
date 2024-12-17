@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eco Build Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-gray-100">
+
     <!-- Header -->
     <header class="bg-green-700 text-white py-4">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center space-x-4">
-                <img src="images/finallogo.jpg" 
-                     alt="Eco Build Home Logo" 
-                     class="h-10 ml-2">
+                <img src="images/finallogo.jpg" alt="Eco Build Home Logo" class="h-10 ml-2">
                 <h1 class="text-2xl font-bold">Eco Build Hub</h1>
             </div>
             <nav>
@@ -21,7 +22,7 @@
                     <li><a href="index.html" class="hover:underline">Home</a></li>
                     <li><a href="#about" class="hover:underline">About</a></li>
                     <li><a href="#services" class="hover:underline">Services</a></li>
-                    <li><a href= "#contact" class="hover:underline">Contact</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,21 +30,16 @@
 
     <!-- Hero Section -->
     <section class="relative h-screen bg-cover bg-center" style="background-image: url('images/imagemodernliving.png');">
-        <!-- Overlay -->
         <div class="absolute inset-0 bg-black opacity-40"></div>
-        <!-- Content -->
         <div class="absolute inset-0 flex flex-col justify-center items-start px-10 md:px-20">
             <span class="bg-gray-700 text-white rounded-full px-4 py-1 mb-4 inline-block text-sm">New</span>
-            <h1 class="text-6xl font-bold text-white leading-tight max-w-lg mb-6">
-                Eco Build Hub
-            </h1>
+            <h1 class="text-6xl font-bold text-white leading-tight max-w-lg mb-6">Eco Build Hub</h1>
             <p class="text-lg text-gray-200 max-w-xl mb-6">
                 Discover innovative and sustainable building solutions designed to reduce environmental impact while enhancing modern living.
             </p>
-        <a href="#ContactUs" class="bg-white text-black font-medium px-6 py-3 rounded hover:bg-gray-300 transition inline-block">
-            Contact Us
+            <a href="#ContactUs" class="bg-white text-black font-medium px-6 py-3 rounded hover:bg-gray-300 transition inline-block">
+                Contact Us
             </a>
-
         </div>
     </section>
 
@@ -58,65 +54,47 @@
     </section>
 
     <!-- Main Content -->
-<main class="pt-0 pb-24">
-    <div class="container mx-auto">
-        <!-- Pembungkus Frame untuk Our Services -->
-        <div class="bg-white rounded-lg shadow-md p-10">
-            <div class="text-center mb-10">
-                <h2 id="services" class="text-3xl font-bold text-green-700">Our Services</h2>
-                <p class="text-lg text-gray-700 mt-2">
-                    Explore our sustainable building solutions designed to meet modern needs while protecting the environment.
-                </p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Eco-Friendly Materials -->
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <a href="EcoFriendlyMaterials.html">
-                        <img src="images/Material.png" 
-                             alt="Eco-Friendly Materials" 
-                             class="w-full h-48 object-cover rounded-t-lg">
-                        <h3 class="text-xl font-bold text-green-700 mt-4 hover:underline">
-                            Eco-Friendly Materials
-                        </h3>
-                    </a>
-                    <p class="mt-2 text-gray-700">
-                        Learn about sustainable building materials that minimize environmental impact.
+    <main class="pt-0 pb-24">
+        <div class="container mx-auto">
+            <div class="bg-white rounded-lg shadow-md p-10">
+                <div class="text-center mb-10">
+                    <h2 id="services" class="text-3xl font-bold text-green-700">Our Services</h2>
+                    <p class="text-lg text-gray-700 mt-2">
+                        Explore our sustainable building solutions designed to meet modern needs while protecting the environment.
                     </p>
                 </div>
-
-                <!-- Green Architecture -->
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <a href="greenarchitecture.html">
-                        <img src="images/greenarchi.png" 
-                             alt="Green Architecture" 
-                             class="w-full h-48 object-cover rounded-t-lg">
-                        <h3 class="text-xl font-bold text-green-700 mt-4 hover:underline">
-                            Green Architecture
-                        </h3>
-                    </a>
-                    <p class="mt-2 text-gray-700">
-                        Explore innovative architectural designs for energy-efficient homes.
-                    </p>
-                </div>
-
-                <!-- Renewable Energy -->
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <a href="RenewableEnergy.html">
-                        <img src="images/renewableenergy.png" 
-                             alt="Renewable Energy" 
-                             class="w-full h-48 object-cover rounded-t-lg">
-                        <h3 class="text-xl font-bold text-green-700 mt-4 hover:underline">
-                            Renewable Energy
-                        </h3>
-                    </a>
-                    <p class="mt-2 text-gray-700">
-                        Discover how renewable energy sources power sustainable buildings.
-                    </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <a href="EcoFriendlyMaterials.html">
+                            <img src="images/Material.png" alt="Eco-Friendly Materials" class="w-full h-48 object-cover rounded-t-lg">
+                            <h3 class="text-xl font-bold text-green-700 mt-4 hover:underline">Eco-Friendly Materials</h3>
+                        </a>
+                        <p class="mt-2 text-gray-700">
+                            Learn about sustainable building materials that minimize environmental impact.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <a href="greenarchitecture.html">
+                            <img src="images/greenarchi.png" alt="Green Architecture" class="w-full h-48 object-cover rounded-t-lg">
+                            <h3 class="text-xl font-bold text-green-700 mt-4 hover:underline">Green Architecture</h3>
+                        </a>
+                        <p class="mt-2 text-gray-700">
+                            Explore innovative architectural designs for energy-efficient homes.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <a href="RenewableEnergy.html">
+                            <img src="images/renewableenergy.png" alt="Renewable Energy" class="w-full h-48 object-cover rounded-t-lg">
+                            <h3 class="text-xl font-bold text-green-700 mt-4 hover:underline">Renewable Energy</h3>
+                        </a>
+                        <p class="mt-2 text-gray-700">
+                            Discover how renewable energy sources power sustainable buildings.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
 
     <!-- Reviews Section -->
 <section class="bg-gray-100 py-16">
@@ -178,17 +156,22 @@
     <!-- Contact Information -->
     <div class="bg-green-700 text-white py-8 mt-16">
         <div class="container mx-auto text-center max-w-xl">
-            <h2 id="contact"  class="text-2xl font-bold mb-4">Contact Us</h2>
-            <p id="ContactUs" class="text-gray-200 mb-6">Feel free to reach out to us for more information or inquiries.</p>
+            <h2 id="contact" class="text-2xl font-bold mb-4">Contact Us</h2>
+            <p id="ContactUs" class="text-gray-200 mb-6">
+                Feel free to reach out to us for more information or inquiries.
+            </p>
             <ul class="space-y-4">
                 <li>
-                    <span class="font-semibold">Email:</span> <a href="mailto:contact@ecobuildhub.com" class="text-gray-200 hover:underline">contact@ecobuildhub.com</a>
+                    <span class="font-semibold">Email:</span>
+                    <a href="mailto:contact@ecobuildhub.com" class="text-gray-200 hover:underline">contact@ecobuildhub.com</a>
                 </li>
                 <li>
-                    <span class="font-semibold">Phone:</span> <a href="tel:+1234567890" class="text-gray-200 hover:underline">+1 (234) 567-890</a>
+                    <span class="font-semibold">Phone:</span>
+                    <a href="tel:+1234567890" class="text-gray-200 hover:underline">+1 (234) 567-890</a>
                 </li>
                 <li>
-                    <span class="font-semibold">Address:</span> 123 Eco Street, Green City, State, Country
+                    <span class="font-semibold">Address:</span>
+                    123 Eco Street, Green City, State, Country
                 </li>
             </ul>
         </div>
@@ -200,5 +183,7 @@
             <p>&copy; 2024 Eco Build Hub. Created by Putri Casiola. All rights reserved.</p>
         </div>
     </footer>
+
 </body>
+
 </html>
